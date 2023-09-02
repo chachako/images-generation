@@ -1,0 +1,18 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: ['config:base'],
+  labels: ['dependencies', 'bot'],
+  platformAutomerge: true,
+  platformCommit: true,
+  automerge: true,
+
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true,
+    platformAutomerge: true,
+  },
+
+  // Conventional Commit: <type>(<scope>): update <dep> to <version>
+  semanticCommits: 'enabled',
+  commitMessageTopic: '{{depName}}',
+}
