@@ -11,9 +11,9 @@ import {
 } from 'yoga-wasm-web'
 import * as Squircle from 'figma-squircle'
 import type { NextRequest } from 'next/server.js'
-import { Yoga } from '../../util/yoga.ts'
-import { Font } from '../../util/font.tsx'
-import { getFileBuffer, getFileString } from '../../util/buffer.ts'
+import { Yoga } from '../../../util/yoga.ts'
+import { Font } from '../../../util/font.tsx'
+import { getFileBuffer, getFileString } from '../../../util/buffer.ts'
 
 let font: Font
 

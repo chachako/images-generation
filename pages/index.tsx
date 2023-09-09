@@ -1,4 +1,4 @@
-import { DEPLOYMENT_URL } from './util/env.ts'
+import { DEPLOYMENT_URL } from '../util/env.ts'
 
 export default function Page() {
   return (
