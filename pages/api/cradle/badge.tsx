@@ -51,7 +51,7 @@ const colors = {
 const shadows = {
   download: { light: '#b78fe8', dark: '#9252E0' },
   sync: { light: '#79d7d4', dark: '#40929a' },
-  tests: { light: '#a3b5d9', dark: '#607db4' },
+  tests: { light: '#a3b5d9', dark: '#5c79af' },
 }
 
 const grays = { light: '#000', dark: '#FFF' }
@@ -123,7 +123,7 @@ export default async function handler(request: NextRequest) {
       trailingTextColor = currentOf(
         isPassingTests
           ? { light: '#409A84', dark: '#7CD9C2' }
-          : { light: '#BA3939', dark: '#BA3939' },
+          : { light: '#BA3939', dark: '#E57D90' },
       )
       break
   }
