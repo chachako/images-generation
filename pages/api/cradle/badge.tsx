@@ -116,7 +116,7 @@ export default async function handler(request: NextRequest) {
       trailingIconPath = currentOf(trailingIconPath[isSyncBehind ? 'behind' : 'latest'])
       break
     case 'tests':
-      isPassingTests = await fetch('https://github.com/meowool/cradle/actions/workflows/upstream-sync.yml/badge.svg')
+      isPassingTests = await fetch('https://github.com/meowool/cradle/actions/workflows/subprojects-test.yml/badge.svg')
         .then(response => response.text())
         .then(text => text.includes('passing'))
       trailingIconPath = currentOf(trailingIconPath[isPassingTests ? 'passing' : 'failing'])
