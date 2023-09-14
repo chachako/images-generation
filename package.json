@@ -23,7 +23,7 @@
     "yoga-wasm-web": "^0.3.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config-react": "0.41.3",
+    "@antfu/eslint-config-react": "0.42.0",
     "@types/node": "18.17.15",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
