@@ -26,7 +26,7 @@
     "@antfu/eslint-config-react": "0.43.1",
     "@types/node": "18.18.4",
     "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.10",
+    "@types/react-dom": "18.2.11",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
     "eslint-plugin-n": "16.1.0",
