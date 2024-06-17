@@ -393,8 +393,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
+  acorn@8.12.0:
+    resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -516,8 +516,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001629:
-    resolution: {integrity: sha512-c3dl911slnQhmxUIT4HhYzT7wnBK/XYpGnYLOj4nJBaRiw52Ibe7YxlDaAeRECvA786zCuExhxIUJ2K7nHMrBw==}
+  caniuse-lite@1.0.30001636:
+    resolution: {integrity: sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -978,8 +978,8 @@ packages:
   for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
 
-  foreground-child@3.1.1:
-    resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
+  foreground-child@3.2.1:
+    resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
     engines: {node: '>=14'}
 
   fsevents@2.3.3:
@@ -1029,8 +1029,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.4.0:
-    resolution: {integrity: sha512-unnwvMZpv0eDUyjNyh9DH/yxUaRYrEjW/qK4QcdrHg3oO11igUQrCSgODHEqxlKg8v2CD2Sd7UkqqEBoz5U7TQ==}
+  globals@15.5.0:
+    resolution: {integrity: sha512-r7/9tQj5RylGxt/BKGv0D2SvehYvRFYg4ukSNk+EuZxvWI7uK/MJFmOCLq8aKvgh3EVBYFbBlOMAtaITXZr80w==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -2098,7 +2098,7 @@ snapshots:
 
   '@stylistic/eslint-plugin-js@0.0.4':
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.12.0
       escape-string-regexp: 4.0.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
@@ -2322,11 +2322,11 @@ snapshots:
       '@typescript-eslint/types': 7.2.0
       eslint-visitor-keys: 3.4.3
 
-  acorn-jsx@5.3.2(acorn@8.11.3):
+  acorn-jsx@5.3.2(acorn@8.12.0):
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.12.0
 
-  acorn@8.11.3: {}
+  acorn@8.12.0: {}
 
   ajv@6.12.6:
     dependencies:
@@ -2478,7 +2478,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001629: {}
+  caniuse-lite@1.0.30001636: {}
 
   chalk@2.4.2:
     dependencies:
@@ -2944,7 +2944,7 @@ snapshots:
       eslint: 9.5.0
       eslint-plugin-es-x: 7.7.0(eslint@9.5.0)
       get-tsconfig: 4.7.5
-      globals: 15.4.0
+      globals: 15.5.0
       ignore: 5.3.1
       minimatch: 9.0.4
       semver: 7.6.2
@@ -3075,14 +3075,14 @@ snapshots:
 
   espree@10.0.1:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.12.0
+      acorn-jsx: 5.3.2(acorn@8.12.0)
       eslint-visitor-keys: 4.0.0
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.12.0
+      acorn-jsx: 5.3.2(acorn@8.12.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.5.0:
@@ -3150,7 +3150,7 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
-  foreground-child@3.1.1:
+  foreground-child@3.2.1:
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
@@ -3197,7 +3197,7 @@ snapshots:
 
   glob@10.3.10:
     dependencies:
-      foreground-child: 3.1.1
+      foreground-child: 3.2.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
       minipass: 7.1.2
@@ -3209,7 +3209,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.4.0: {}
+  globals@15.5.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -3438,7 +3438,7 @@ snapshots:
 
   jsonc-eslint-parser@2.4.0:
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.12.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       semver: 7.6.2
@@ -3542,7 +3542,7 @@ snapshots:
       '@next/env': 14.2.4
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001629
+      caniuse-lite: 1.0.30001636
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
