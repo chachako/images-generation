@@ -27,7 +27,7 @@
     "@types/node": "22.10.5",
     "@types/react": "19.0.3",
     "@types/react-dom": "19.0.2",
-    "eslint": "9.17.0",
+    "eslint": "9.18.0",
     "eslint-config-next": "14.2.23",
     "eslint-plugin-n": "17.15.1",
     "tslib": "^2.6.2",
