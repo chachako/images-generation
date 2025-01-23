@@ -31,7 +31,7 @@
     "eslint-config-next": "14.2.23",
     "eslint-plugin-n": "17.15.1",
     "tslib": "^2.6.2",
-    "turbo": "1.13.4",
+    "turbo": "2.3.4",
     "typescript": "latest"
   }
 }
