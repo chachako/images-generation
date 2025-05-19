@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config-react": "0.43.1",
-    "@types/node": "22.15.18",
+    "@types/node": "22.15.19",
     "@types/react": "19.1.4",
     "@types/react-dom": "19.1.5",
     "eslint": "9.27.0",
